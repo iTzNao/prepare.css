@@ -1,0 +1,95 @@
+/*  
+    prepare.css by iTz_Nao 
+    
+    This is just my take on a styles reset, I personally will be using this
+    as my new main styles reset, due to how easy, simple and useful it is.
+*/
+
+/*  ⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺
+    - Ensure all elements do not have margin
+    - Ensure all elements do not have padding
+    - Ensure all elements have their padding and borders included in size
+    - Making all default fonts the same
+*/
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+/*  ⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺
+    - Ensure that IE renders the main element properly
+*/
+
+main {
+    display: block;
+}
+
+/*  ⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺
+    - Add Helvetica to all elements as the default font sucks
+    - Ensure that line height is the expected value
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+
+/*  ⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺
+    - Add terminal font to code blocks
+*/
+
+code {
+    font-family: monospace;
+}
+
+/*  ⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺
+    - Add terminal font to code blocks
+    - Remove the weird size difference
+*/
+
+pre {
+    font-family: monospace;
+    font-size: 1em;
+}
+
+/*  ⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺
+    Remove default list decoration
+*/
+
+ol,
+ul {
+	list-style: none;
+}
+
+/*  ⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺
+    - Remove default link decoration
+    - Remove the gray background on active links in IE
+*/
+
+a {
+	text-decoration: none;
+    background-color: transparent;
+}
+
+/*  ⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺
+    - Fix bold tag after the styles reset
+*/
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+/*  ⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺
+    - Added new tag: highlight
+*/
+
+h,
+highlight {
+    background-color: yellow;
+}
