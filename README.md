@@ -8,18 +8,19 @@ This is just my take on a styles reset, I personally will be using this as my ne
 
 ### How to use:
 You can download the file and import it:
+```html
+<link rel="stylesheet" href="prepare.css"> <!-- HTML import -->
+```
 ```css
-@import "prepare.css"
+@import "prepare.css" /* CSS import */
 ```
 
-You can reference the online file, hosted here on GitHub, this will ensure that is up to date.
-```css
-@import URL
+You can reference the latest online file, hosted here on GitHub:
+```html
+<link rel="stylesheet" href="https://github.com/iTzNao/prepare.css/releases/download/1.0.0/prepare.css"> <!-- HTML import -->
 ```
-
-You can reference a specific online file version.
 ```css
-@import URL
+@import url("https://github.com/iTzNao/prepare.css/releases/download/1.0.0/prepare.css") /* CSS import */
 ```
 
 ### License
