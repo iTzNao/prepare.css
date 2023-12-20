@@ -84,12 +84,3 @@ b,
 strong {
     font-weight: bolder;
 }
-
-/*  ⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺⸺
-    - Added new tag: highlight
-*/
-
-h,
-highlight {
-    background-color: yellow;
-}
